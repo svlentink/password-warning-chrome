@@ -1,0 +1,15 @@
+{
+  "name": "password warnings on http",
+  "description": "Marks the border of an input field red when connection is non secure",
+  "version": "0.1",
+  "permissions": [ "tabs", "<all_urls>" ],
+  "browser_action": {},
+  "content_scripts": [
+    {
+      "matches": [ "http://*/*" ],
+      "js": ["script.js"],
+      "run_at": "document_end"
+    }
+  ], 
+  "manifest_version":2
+}
