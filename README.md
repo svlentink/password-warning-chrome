@@ -6,7 +6,7 @@ But until that time, that websites still request passwords over HTTP
 instead of HTTPS,
 we need to warn our loved ones.
 We coders understand that entering a password without encryption
-isn't a good thing when on a public wifi hub,
+isn't a good thing when on public wifi,
 but many people don't.
 
 Please install this chrome extension on the laptop of someone you care about.
